@@ -1,0 +1,329 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: whitesmoke;
+
+}
+
+header {
+
+    background-color: rgb(192, 222, 255);
+    color: rgb(7, 6, 6);
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+
+}
+
+footer {
+    background-color: pink;
+    padding: 10px
+}
+
+.left {
+    text-align: left;
+
+}
+
+.bookshelf {
+    display: flex;
+}
+
+
+
+
+
+.intro {
+
+    text-align: left;
+    vertical-align: top;
+    background-color: papayawhip;
+    border: 2px solid black;
+    font-size: 20px;
+
+}
+
+
+
+
+.header-image {
+    border-radius: 10%;
+    border: groove;
+    transition: transform 0.5s ease;
+
+
+}
+
+.header-image:hover {
+    transform: scale(1.1)
+}
+
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+
+}
+
+.Explore {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+.main-section {
+
+    margin: auto;
+    padding: 30px;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    background-color: pink;
+    margin-bottom: 20px;
+
+}
+
+
+
+.tagline {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    text-align: right;
+
+}
+
+
+
+main {
+    background-color: papayawhip;
+
+}
+
+.flowerimage {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+ul li {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: solid purple 3px;
+    padding: 10px 15px;
+
+
+}
+
+ul li a:hover {
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+.aboutme {
+    text-align: center;
+    background-color: papayawhip;
+    border: 1px solid black;
+    font-size: 20px;
+    width: auto;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+
+
+body {
+    background-color: whitesmoke;
+}
+
+.books {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 2.5px solid black;
+
+}
+
+.meet {
+
+    width: auto;
+    border: 15px solid pink;
+    padding: 120px;
+    background-color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.cornerimage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.mybooks {
+    text-align: center;
+    background-color: papayawhip;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 5px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.ideas {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 20px
+}
+
+
+.cupcakes {
+    border: 5px solid black;
+    margin: 10px;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.cupcakes:hover {
+    transform: rotate(5deg);
+}
+
+.pitch {
+    padding: 20px;
+}
+
+
+.shelf {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+    font-size: x-large;
+}
+
+
+.resources {
+    padding: 120px;
+    background-color: pink;
+    margin: 20px;
+
+
+}
+
+.resources {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* carousel layout */
+.carousel {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+}
+
+/* remove list style */
+.carousel li {
+    list-style: none;
+    scroll-snap-align: start;
+}
+
+/* button style */
+.carousel a {
+    display: inline-block;
+    padding: 12px 22px;
+    background: peachpuff;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: 0.25s;
+}
+
+/* hover effect */
+.carousel a:hover {
+    background: pink;
+    transform: scale(1.05);
+}
+
+/* hide scrollbar (optional) */
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.contact {
+    width: auto;
+    border: 15px solid pink;
+    padding: 120px;
+    background-color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    position: relative;
+}
+
+.pb {
+    border: 2.5px solid black;
+}
+
+.contactfooter {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
