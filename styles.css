@@ -28,6 +28,7 @@ footer {
 
 .bookshelf {
     display: flex;
+    margin: 20px;
 }
 
 
@@ -171,7 +172,7 @@ ul li a:hover {
 
 
 
-body {
+.body {
     background-color: whitesmoke;
 }
 
@@ -262,6 +263,7 @@ body {
     width: 100%;
     overflow: hidden;
     padding: 20px 0;
+    margin: 20px;
 }
 
 /* carousel layout */
@@ -273,11 +275,7 @@ body {
     padding: 10px;
 }
 
-/* remove list style */
-.carousel li {
-    list-style: none;
-    scroll-snap-align: start;
-}
+
 
 /* button style */
 .carousel a {
@@ -296,12 +294,10 @@ body {
 .carousel a:hover {
     background: pink;
     transform: scale(1.05);
+    margin: 20px;
 }
 
-/* hide scrollbar (optional) */
-.carousel::-webkit-scrollbar {
-    display: none;
-}
+
 
 .contact {
     width: auto;
